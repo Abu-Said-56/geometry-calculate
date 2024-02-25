@@ -17,3 +17,11 @@ function pentagonArea(){
     const pentagonDisplay = document.getElementById('pentagon_area');
     pentagonDisplay.innerText = area;
 }
+
+// function pentagonArea(){
+//     const pentagonP = getInputValueById('pentagon_p');
+//     const pentagonD = getInputValueById('pentagon_d');
+//     const area = 0.5 * pentagonP * pentagonD;
+//     setInnerTextById('pentagon_area',area);
+// }
+
